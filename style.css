@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 20px;
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sections */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Portfolio */
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Contact Form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background: #555;
+}
+
+#contact-status {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: green;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #555;
+}
